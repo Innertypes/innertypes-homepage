@@ -40,3 +40,36 @@ footer {
   text-align: center;
   font-size: 0.9rem;
 }
+.email-signup {
+  background: #ecf1e8;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 16px;
+  text-align: center;
+}
+.email-signup h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.email-signup p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.email-signup input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  max-width: 80%;
+}
+.email-signup button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
