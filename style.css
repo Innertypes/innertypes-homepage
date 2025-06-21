@@ -36,7 +36,7 @@ h1, h2, h3 {
   transition: all 0.3s ease;
 }
 .btn:hover {
-  background-color: var(--accent);
+  background-color: #6f543c;
 }
 
 /* Section Styling Enhancements */
@@ -62,4 +62,18 @@ header h1 {
 header p {
   font-size: 1.2rem;
   color: #333;
+}
+.hero-cta {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.btn.big {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  background-color: var(--accent);
+}
+
+section, .email-signup, .intro-inner-type {
+  text-align: center;
 }
